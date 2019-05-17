@@ -55,7 +55,7 @@ class Nav extends Component {
                 className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}
                 to="/"
               >
-                Search
+                Search Books
               </Link>
             </li>
             <li className="nav-item">
@@ -64,7 +64,7 @@ class Nav extends Component {
                 className={window.location.pathname === "/saved" ? "nav-link active" : "nav-link"}
                 to="/saved"
               >
-                Saved
+                Saved Books
               </Link>
             </li>
           </ul>
